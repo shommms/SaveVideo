@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: rgb(224,224,224);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+   margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.title{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.fa-youtube{
+    color: rgb(204,0,0);
+    font-size: 100px;
+}
+.form{
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+.form input::placeholder{
+    font-size: 18px;
+}
+.video__info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.video__title{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgb(102,0,0);
+}
+.video__info img{
+    width: 50%;
+}
+.creator{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.creator a{
+    color: blue;
+    font-size: 30px;
+}
+
+.download{
+    display: flex;
+    gap: 30px;
+}
+.download select{
+    text-align: center;
+}
+
+.btn-danger{
+    color: black(102,0,0);
+}
+
+.location_img{
+    position: absolute;
+    top: 850px;
+    left: 700px;
+}
+
+.btn_downloader{
+    position: absolute;
+    color: black;
+    background-color: rgb(102,0,0);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    top: 400px;
+    left: 900px;
+    width: 250px;
+    height: 60px;
+}
+
+.btn_downloader:hover{
+    background-color: rgb(204,0,0);
+}
+
+.name_title{
+    font-size: 10rem;
+    color: rgb(102,0,0);
+}
+
+.length_input{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    left: 750px;
+    color: rgb(224,224,224);
+    border-radius: 10px;
+    border-color: rgb(224,224,224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.its_l{
+    position: absolute;
+    color: rgb(102,0,0);
+    bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 1%;
+}
+
+.name_title:hover{
+    color: rgb(204,0,0);
+}
+
+.bnt_go_back{
+    position: absolute;
+    background-color: rgb(102,0,0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    left: 700px;
+    top: 700px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;  
+}
+
+.bnt_go_back:hover{
+    background-color: rgb(204,0,0);
+    color: white;
+}
+
+.img2{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 100px;
+    height: 100px;
+}
+
+.img3{
+    left: 800px;
+}
+
+.img4{
+    left: 1000px;
+}
+
+.img5{
+    left: 1200px;
+}
+
+.a{
+    text-decoration: none;
+}
